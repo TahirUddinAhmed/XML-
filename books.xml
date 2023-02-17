@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books[
+ <!ELEMENT books (book+)>
+ <!ELEMENT book (title, author, price)>
+ <!ELEMENT title (#PCDATA)>
+ <!ELEMENT author (#PCDATA)>
+ <!ELEMENT price (#PCDATA)>
+]>
+
+<books>
+  <book id="01">
+    <title> Atomic Habit </title>
+    <author> James Clear </author>
+    <price> 258 </price>
+  </book>
+
+  <book id="01">
+    <title> Make Your Bed </title>
+    <author> William H McRaven </author>
+    <price> 360 </price>
+  </book>
+
+  <book id="02">
+    <title> Think and Grow Rich </title>
+    <author> Napoleon Hill </author>
+    <price> 444 </price>
+  </book>
+
+  <book id="03">
+    <title> The Four Agreements </title>
+    <author> Don Miguel </author>
+    <price> 364 </price>
+  </book>
+
+  <book id="04">
+    <title> The 5 Second Rule </title>
+    <author> Mel Robbin </author>
+    <price> 299 </price>
+  </book>
+
+  <book id="05">
+    <title> The Alchemis </title>
+    <author> Paulo Coelho </author>
+    <price> 255 </price>
+  </book>
+
+  <book id="06">
+    <title> Awaken The Giant Within </title>
+    <author> Tony Robbins </author>
+    <price> 361 </price>
+  </book>
+
+  <book id="07">
+    <title> The Art of Happiness </title>
+    <author> Dalai Lama </author>
+    <price> 320 </price>
+  </book>
+
+  <book id="08">
+    <title>  The 7 Habits of Highly Effective People </title>
+    <author> Stephen Covey </author>
+    <price> 319 </price>
+  </book>
+
+  <book id="09">
+    <title> Screw It Let’s Do It: Lessons in Life </title>
+    <author> Richard Branson  </author>
+    <price> 258 </price>
+  </book>
+
+  <book id="10">
+    <title> The Power of your subconscious mind </title>
+    <author> Joseph Murphy </author>
+    <price> 499 </price>
+  </book>
+</books>

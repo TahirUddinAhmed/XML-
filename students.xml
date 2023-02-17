@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students [
+<!ELEMENT students (student, rollno, name, address, class)>
+<!ELEMENT student (#PCDATA)>
+<!ELEMENT rollno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+]>
+<students>
+    <student id="01">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="02">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="03">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="04">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="05">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="06">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="07">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="08">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="09">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+    <student id="10">
+        <rollno> 125 </rollno>
+        <name> Tahir Ahmed </name>
+        <address>  Morigaon </address>
+        <class> BCA 3rd sem </class>
+    </student>
+</students>

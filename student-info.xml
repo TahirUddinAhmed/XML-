@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- Construct an XML document that contain information of 5 students (such as roll no., name ,
+address, class) and check the validation of the XML document using DTD. -->
+<!DOCTYPE student-info [
+<!ELEMENT student-info (student+)>
+<!ELEMENT student (roll-no, name, address, class)>
+<!ELEMENT roll-no (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT class (#PCDATA)>
+]>
+
+
+<student-info>
+  <student>
+    <roll-no>1</roll-no>
+    <name>John Doe</name>
+    <address>123 Main St</address>
+    <class>10th</class>
+  </student>
+  <student>
+    <roll-no>2</roll-no>
+    <name>Jane Smith</name>
+    <address>456 Park Ave</address>
+    <class>11th</class>
+  </student>
+  <student>
+    <roll-no>3</roll-no>
+    <name>Bob Johnson</name>
+    <address>789 Elm St</address>
+    <class>12th</class>
+  </student>
+  <student>
+    <roll-no>4</roll-no>
+    <name>Samantha Brown</name>
+    <address>321 Oak St</address>
+    <class>10th</class>
+  </student>
+  <student>
+    <roll-no>5</roll-no>
+    <name>Michael Garcia</name>
+    <address>654 Pine St</address>
+    <class>11th</class>
+  </student>
+</student-info>

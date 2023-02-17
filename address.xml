@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Address[
+  <!ELEMENT Address (name, company, email, phone)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT company (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT phone (#PCDATA)>
+]>
+
+<Address>
+    <name> Tahir ahmed </name>
+    <company> Google </company>
+    <email> 01tahirahmed@gmail.com </email>
+    <phone> 9365910717 </phone>
+</Address>
